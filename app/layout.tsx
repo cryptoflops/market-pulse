@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, Inter } from 'next/font/google';
 import ClientWrapper from '@/components/ClientWrapper';
 import Link from 'next/link';
+import Image from 'next/image';
 import './globals.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-plus-jakarta-sans' });
@@ -25,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
         <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-[#131413]/80 backdrop-blur-lg shadow-[0_12px_40px_rgba(0,0,0,0.4)] md:hidden">
           <div className="flex items-center gap-3">
-            <span className="material-symbols-outlined text-white text-2xl">storefront</span>
+            <Image src="/logo.png" alt="MarketPulse Logo" width={32} height={32} className="rounded-md object-contain" />
             <span className="text-lg font-black text-white tracking-widest uppercase font-headline">MarketPulse</span>
           </div>
           <div className="flex items-center">
@@ -35,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <header className="hidden md:flex fixed top-0 left-0 w-full z-50 justify-between items-center px-10 h-20 bg-surface/90 backdrop-blur-xl">
           <div className="flex items-center gap-4">
-            <span className="material-symbols-outlined text-white text-3xl">storefront</span>
+            <Image src="/logo.png" alt="MarketPulse Logo" width={40} height={40} className="rounded-md object-contain" />
             <span className="text-2xl font-black text-white tracking-widest uppercase font-headline">MarketPulse</span>
           </div>
           <nav className="flex gap-8">

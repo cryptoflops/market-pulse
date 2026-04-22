@@ -1,5 +1,9 @@
 # MarketPulse
 
+<p align="center">
+  <img src="./public/logo.png" height="120" alt="MarketPulse Logo" />
+</p>
+
 MarketPulse is a merchant loyalty application for Celo MiniPay. It enables merchants to set up loyalty campaigns and reward repeat customers with points recorded on the blockchain.
 
 ## Features
