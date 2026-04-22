@@ -1,7 +1,7 @@
 'use client';
 
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt, useAccount } from 'wagmi';
-import { LOYALTY_ADDRESS, MarketPulseLoyaltyABI, CELO_SEPOLIA_CHAIN_ID } from '@/contracts';
+import { LOYALTY_ADDRESS, MarketPulseLoyaltyABI, CELO_CHAIN_ID } from '@/contracts';
 
 // --- Read Hooks ---
 
@@ -11,7 +11,7 @@ export function useCampaignDetails(campaignId: bigint) {
     abi: MarketPulseLoyaltyABI,
     functionName: 'campaigns',
     args: [campaignId],
-    chainId: CELO_SEPOLIA_CHAIN_ID,
+    chainId: CELO_CHAIN_ID,
   });
 }
 
@@ -20,7 +20,7 @@ export function useCampaignCounter() {
     address: LOYALTY_ADDRESS,
     abi: MarketPulseLoyaltyABI,
     functionName: 'campaignCounter',
-    chainId: CELO_SEPOLIA_CHAIN_ID,
+    chainId: CELO_CHAIN_ID,
   });
 }
 
@@ -32,7 +32,7 @@ export function useUserPoints(campaignId: bigint) {
     abi: MarketPulseLoyaltyABI,
     functionName: 'userPoints',
     args: address ? [campaignId, address] : undefined,
-    chainId: CELO_SEPOLIA_CHAIN_ID,
+    chainId: CELO_CHAIN_ID,
     query: { enabled: !!address },
   });
 }
@@ -49,7 +49,7 @@ export function useCreateCampaign() {
       abi: MarketPulseLoyaltyABI,
       functionName: 'createCampaign',
       args: [name, pointsPerVisit],
-      chainId: CELO_SEPOLIA_CHAIN_ID,
+      chainId: CELO_CHAIN_ID,
     });
   };
 
@@ -66,7 +66,7 @@ export function useLogVisit() {
       abi: MarketPulseLoyaltyABI,
       functionName: 'logVisit',
       args: [campaignId, customer],
-      chainId: CELO_SEPOLIA_CHAIN_ID,
+      chainId: CELO_CHAIN_ID,
     });
   };
 
