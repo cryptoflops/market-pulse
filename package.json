@@ -1,0 +1,54 @@
+{
+  "name": "@cryptoflops/market-pulse",
+  "version": "1.0.0",
+  "description": "MarketPulse: Premium Merchant Loyalty MiniApp for MiniPay",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "src",
+    "app",
+    "contracts",
+    "public",
+    "next.config.ts",
+    "tsconfig.json",
+    "tailwind.config.js",
+    "postcss.config.mjs"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:worker": "npx @opennextjs/cloudflare",
+    "deploy": "npm run build && npm run build:worker && npx wrangler deploy",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reown/appkit": "1.8.14",
+    "@reown/appkit-adapter-wagmi": "1.8.14",
+    "@tanstack/react-query": "5.90.10",
+    "next": "16.2.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "viem": "2.39.2",
+    "wagmi": "2.19.4"
+  },
+  "overrides": {
+    "@wagmi/core": "2.22.1",
+    "@wagmi/connectors": "6.2.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "1.19.2",
+    "@types/node": "20",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "autoprefixer": "10.4.22",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.18",
+    "typescript": "5",
+    "wrangler": "4.84.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
