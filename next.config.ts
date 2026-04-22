@@ -12,19 +12,7 @@ const nextConfig: NextConfig = {
 
     return config;
   },
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: "script-src 'self' 'unsafe-eval' 'unsafe-inline' https: http:; object-src 'none'; base-uri 'none';",
-          },
-        ],
-      },
-    ];
-  },
+  output: "export",
 };
 
 export default nextConfig;

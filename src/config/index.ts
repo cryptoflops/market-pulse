@@ -57,7 +57,20 @@ const celo: Chain = {
   },
 };
 
-export const networks = [base, optimism, arbitrum, celo] as const;
+const celoSepolia: Chain = {
+  id: 11142220,
+  name: 'Celo Sepolia Testnet',
+  nativeCurrency: { name: 'CELO', symbol: 'CELO', decimals: 18 },
+  rpcUrls: {
+    default: { http: ['https://forno.celo-sepolia.celo-testnet.org'] },
+  },
+  blockExplorers: {
+    default: { name: 'Celo Sepolia Explorer', url: 'https://celo-sepolia.blockscout.com' },
+  },
+  testnet: true,
+};
+
+export const networks = [base, optimism, arbitrum, celo, celoSepolia] as const;
 
 export const wagmiAdapter = new WagmiAdapter({
   storage: createStorage({
