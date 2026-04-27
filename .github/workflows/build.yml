@@ -15,5 +15,8 @@ jobs:
           node-version: '20'
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Build project
+        run: npm run build
+        env:
+          NEXT_PUBLIC_WC_PROJECT_ID: test_project_id
       # Updated 2026-04-25T19:47:50.331Z
