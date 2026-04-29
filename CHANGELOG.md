@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-04-28
+## [Unreleased] - 2026-04-29
 
 ### Changed
-- Updated dependencies to latest stable
-- Added retry logic for failed transactions
+- Optimized RPC batch requests
+- Reduced bundle size by tree-shaking
 
 ### Fixed
 - Fixed edge case in balance display
