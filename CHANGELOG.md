@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-04-29
+## [Unreleased] - 2026-04-30
 
 ### Changed
-- Optimized RPC batch requests
+- Refactored wallet connection flow
 - Reduced bundle size by tree-shaking
 
 ### Fixed
-- Fixed edge case in balance display
+- Fixed decimal formatting for small amounts
