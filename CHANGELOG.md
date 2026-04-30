@@ -4,7 +4,7 @@
 
 ### Changed
 - Refactored wallet connection flow
-- Reduced bundle size by tree-shaking
+- Added retry logic for failed transactions
 
 ### Fixed
-- Fixed decimal formatting for small amounts
+- Resolved race condition in wallet sync
