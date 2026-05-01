@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-04-30
+## [Unreleased] - 2026-05-01
 
 ### Changed
 - Refactored wallet connection flow
-- Added retry logic for failed transactions
+- Reduced bundle size by tree-shaking
 
 ### Fixed
 - Resolved race condition in wallet sync
