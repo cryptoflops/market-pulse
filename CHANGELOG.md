@@ -3,8 +3,8 @@
 ## [Unreleased] - 2026-05-02
 
 ### Changed
-- Optimized RPC batch requests
-- Added input validation for amounts
+- Updated dependencies to latest stable
+- Added retry logic for failed transactions
 
 ### Fixed
 - Corrected gas estimation for Celo L2
