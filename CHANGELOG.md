@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-01
+## [Unreleased] - 2026-05-02
 
 ### Changed
-- Refactored wallet connection flow
-- Reduced bundle size by tree-shaking
+- Optimized RPC batch requests
+- Added input validation for amounts
 
 ### Fixed
-- Resolved race condition in wallet sync
+- Corrected gas estimation for Celo L2
