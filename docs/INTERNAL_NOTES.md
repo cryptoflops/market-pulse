@@ -8,3 +8,4 @@
 - Reviewed component tree performance, seems stable.
 - Looking into potential race conditions during state hydration.
 - Refactored the wallet connection hooks for cleaner state.
+- Looking into potential race conditions during state hydration.
