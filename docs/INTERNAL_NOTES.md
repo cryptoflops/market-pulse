@@ -14,3 +14,4 @@
 - Refactored the wallet connection hooks for cleaner state.
 - Looking into potential race conditions during state hydration.
 - Tested gas estimations on Celo Alfajores, looks good.
+- Tested gas estimations on Celo Alfajores, looks good.
