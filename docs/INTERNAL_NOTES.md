@@ -12,3 +12,4 @@
 - Testing new layout constraints for edge cases.
 - Adjusting padding to align with design specs.
 - Refactored the wallet connection hooks for cleaner state.
+- Looking into potential race conditions during state hydration.
