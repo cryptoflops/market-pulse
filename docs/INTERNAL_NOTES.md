@@ -16,3 +16,4 @@
 - Tested gas estimations on Celo Alfajores, looks good.
 - Tested gas estimations on Celo Alfajores, looks good.
 - Need to look into optimizing the context providers later.
+- Verified backward compatibility with older API responses.
