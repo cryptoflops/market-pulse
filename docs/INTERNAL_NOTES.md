@@ -18,3 +18,4 @@
 - Need to look into optimizing the context providers later.
 - Verified backward compatibility with older API responses.
 - Verified backward compatibility with older API responses.
+- Reviewed component tree performance, seems stable.
