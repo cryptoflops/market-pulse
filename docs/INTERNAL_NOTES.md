@@ -21,3 +21,4 @@
 - Reviewed component tree performance, seems stable.
 - Adjusting padding to align with design specs.
 - Need to look into optimizing the context providers later.
+- Refactored the wallet connection hooks for cleaner state.
