@@ -23,3 +23,4 @@
 - Need to look into optimizing the context providers later.
 - Refactored the wallet connection hooks for cleaner state.
 - Need to look into optimizing the context providers later.
+- Testing new layout constraints for edge cases.
