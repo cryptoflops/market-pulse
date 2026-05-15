@@ -25,3 +25,4 @@
 - Need to look into optimizing the context providers later.
 - Testing new layout constraints for edge cases.
 - Verified backward compatibility with older API responses.
+- Tested gas estimations on Celo Alfajores, looks good.
