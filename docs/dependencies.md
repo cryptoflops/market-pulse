@@ -1,6 +1,6 @@
 # Dependency Decisions
 
-Updated: 2026-05-14
+Updated: 2026-05-16
 
 ## Core
 - ethers: ^6.11.0 (Celo L2 compatible)
@@ -8,4 +8,4 @@ Updated: 2026-05-14
 - next: 14.2.3
 
 ## Notes
-- Using viem for read-only calls, ethers for writes
+- Pinned ethers for Celo fee currency compatibility
