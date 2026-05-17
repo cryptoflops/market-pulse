@@ -3,13 +3,44 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #121212;
+    --surface: #f8fafc;
+    --surface-container: #ffffff;
+    --surface-variant: #e2e8f0;
+    --surface-bright: #ffffff;
+    --on-surface: #0f172a;
+    --on-surface-variant: #475569;
+    --outline: #cbd5e1;
+    --outline-variant: #e2e8f0;
+  }
+
+  .dark {
+    --background: #0f1110;
+    --foreground: #e4e2e0;
+    --surface: #131413;
+    --surface-container: #1f201f;
+    --surface-variant: #292a29;
+    --surface-bright: #393938;
+    --on-surface: #e4e2e0;
+    --on-surface-variant: #c9c8ae;
+    --outline: #93927a;
+    --outline-variant: #484834;
+  }
+
   body {
-    @apply bg-surface text-on-surface antialiased overflow-x-hidden min-h-screen pb-24 md:pb-0;
-    min-height: max(884px, 100dvh);
+    @apply bg-background text-foreground antialiased overflow-x-hidden min-h-screen font-body;
   }
 }
 
 @layer utilities {
-  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
-  .material-symbols-outlined.fill { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  .glass-panel {
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    background: color-mix(in srgb, var(--surface-container) 60%, transparent);
+    border: 1px solid var(--outline-variant);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 1rem;
+  }
 }
