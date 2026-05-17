@@ -26,3 +26,4 @@
 - Testing new layout constraints for edge cases.
 - Verified backward compatibility with older API responses.
 - Tested gas estimations on Celo Alfajores, looks good.
+- Tested gas estimations on Celo Alfajores, looks good.
