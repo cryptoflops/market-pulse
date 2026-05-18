@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-05-17
+## [Unreleased] - 2026-05-18
 
 ### Changed
-- Optimized RPC batch requests
+- Updated dependencies to latest stable
 - Added retry logic for failed transactions
 
 ### Fixed
