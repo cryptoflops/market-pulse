@@ -13,9 +13,9 @@ if (!projectId) {
 }
 
 const metadata = {
-  name: 'Base Connect Playground',
-  description: 'Reown AppKit + Base + Multichain Builder Playground',
-  url: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://base-connect-playground.example',
+  name: 'MarketPulse',
+  description: 'On-Chain Loyalty for Celo Merchants via MiniPay',
+  url: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://market-pulse.pages.dev',
   icons: ['https://avatars.githubusercontent.com/u/179229932'],
 };
 
