@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-18
+## [Unreleased] - 2026-05-19
 
 ### Changed
-- Updated dependencies to latest stable
-- Added retry logic for failed transactions
+- Improved error handling in contract interactions
+- Cleaned up unused imports
 
 ### Fixed
-- Fixed decimal formatting for small amounts
+- Resolved race condition in wallet sync
