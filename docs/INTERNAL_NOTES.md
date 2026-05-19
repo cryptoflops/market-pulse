@@ -27,3 +27,4 @@
 - Verified backward compatibility with older API responses.
 - Tested gas estimations on Celo Alfajores, looks good.
 - Tested gas estimations on Celo Alfajores, looks good.
+- Tested the NetworkEnforcer component with chain switching. Smooth on MiniPay, slight delay on MetaMask.
