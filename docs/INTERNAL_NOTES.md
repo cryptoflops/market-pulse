@@ -28,3 +28,4 @@
 - Tested gas estimations on Celo Alfajores, looks good.
 - Tested gas estimations on Celo Alfajores, looks good.
 - Tested the NetworkEnforcer component with chain switching. Smooth on MiniPay, slight delay on MetaMask.
+- Reviewed WagmiProvider config. The QueryClient should probably have a longer gcTime for balance queries.
