@@ -3,8 +3,8 @@
 ## [Unreleased] - 2026-05-24
 
 ### Changed
-- Improved loading state indicators
-- Added retry logic for failed transactions
+- Refactored wallet connection flow
+- Added input validation for amounts
 
 ### Fixed
 - Fixed edge case in balance display
