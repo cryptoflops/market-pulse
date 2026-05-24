@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-19
+## [Unreleased] - 2026-05-24
 
 ### Changed
-- Improved error handling in contract interactions
-- Cleaned up unused imports
+- Improved loading state indicators
+- Added retry logic for failed transactions
 
 ### Fixed
-- Resolved race condition in wallet sync
+- Fixed edge case in balance display
