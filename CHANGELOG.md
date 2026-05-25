@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-24
+## [Unreleased] - 2026-05-25
 
 ### Changed
-- Improved error handling in contract interactions
-- Added retry logic for failed transactions
+- Enhanced mobile responsiveness
+- Cleaned up unused imports
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Fixed decimal formatting for small amounts
