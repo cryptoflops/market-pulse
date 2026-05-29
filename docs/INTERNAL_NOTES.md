@@ -30,3 +30,4 @@
 - Tested the NetworkEnforcer component with chain switching. Smooth on MiniPay, slight delay on MetaMask.
 - Reviewed WagmiProvider config. The QueryClient should probably have a longer gcTime for balance queries.
 - Noticed the useBalance hook refetches on every block. Consider adding staleTime to reduce RPC load.
+- Tested the NetworkEnforcer component with chain switching. Smooth on MiniPay, slight delay on MetaMask.
