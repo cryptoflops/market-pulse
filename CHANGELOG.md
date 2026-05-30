@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-29
+## [Unreleased] - 2026-05-30
 
 ### Changed
-- Refactored wallet connection flow
+- Improved error handling in contract interactions
 - Added retry logic for failed transactions
 
 ### Fixed
-- Fixed decimal formatting for small amounts
+- Corrected gas estimation for Celo L2
