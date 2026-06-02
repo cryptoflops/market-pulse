@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-05-30
+## [Unreleased] - 2026-06-02
 
 ### Changed
-- Improved error handling in contract interactions
+- Optimized RPC batch requests
 - Added retry logic for failed transactions
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Fixed edge case in balance display
