@@ -36,3 +36,4 @@
 - The useMiniPay hook detects isMiniPay synchronously, but some devices inject the provider async. Added 500ms fallback.
 - Framer Motion animations perform well on low-end Android devices commonly used with MiniPay.
 - The useMiniPay hook detects isMiniPay synchronously, but some devices inject the provider async. Added 500ms fallback.
+- Tested cUSD approve + deposit flow on Celo mainnet. Gas estimates stable at ~45k per tx.
