@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-03
+## [Unreleased] - 2026-06-08
 
 ### Changed
 - Updated dependencies to latest stable
 - Cleaned up unused imports
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Resolved race condition in wallet sync
