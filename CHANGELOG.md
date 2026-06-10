@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-08
+## [Unreleased] - 2026-06-10
 
 ### Changed
-- Updated dependencies to latest stable
-- Cleaned up unused imports
+- Enhanced mobile responsiveness
+- Added retry logic for failed transactions
 
 ### Fixed
 - Resolved race condition in wallet sync
