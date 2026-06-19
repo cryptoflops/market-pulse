@@ -39,3 +39,4 @@
 - Tested cUSD approve + deposit flow on Celo mainnet. Gas estimates stable at ~45k per tx.
 - The escrow contract refund timeout (7 days) seems appropriate for freelance gig markets.
 - Contract reads via useReadContract work fine on Celo, but multicall batching is not supported on all RPCs.
+- Contract reads via useReadContract work fine on Celo, but multicall batching is not supported on all RPCs.
