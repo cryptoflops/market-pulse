@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-19
+## [Unreleased] - 2026-06-20
 
 ### Changed
-- Optimized RPC batch requests
-- Reduced bundle size by tree-shaking
+- Improved loading state indicators
+- Cleaned up unused imports
 
 ### Fixed
 - Resolved race condition in wallet sync
