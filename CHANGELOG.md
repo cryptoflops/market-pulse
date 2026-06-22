@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-20
+## [Unreleased] - 2026-06-22
 
 ### Changed
-- Improved loading state indicators
-- Cleaned up unused imports
+- Improved error handling in contract interactions
+- Added input validation for amounts
 
 ### Fixed
-- Resolved race condition in wallet sync
+- Fixed decimal formatting for small amounts
