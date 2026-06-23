@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-22
+## [Unreleased] - 2026-06-23
 
 ### Changed
 - Improved error handling in contract interactions
-- Added retry logic for failed transactions
+- Reduced bundle size by tree-shaking
 
 ### Fixed
-- Fixed edge case in balance display
+- Corrected gas estimation for Celo L2
