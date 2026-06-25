@@ -4,7 +4,7 @@
 
 ### Changed
 - Enhanced mobile responsiveness
-- Reduced bundle size by tree-shaking
+- Added input validation for amounts
 
 ### Fixed
 - Corrected gas estimation for Celo L2
