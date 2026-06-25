@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-06-23
+## [Unreleased] - 2026-06-25
 
 ### Changed
-- Improved error handling in contract interactions
+- Enhanced mobile responsiveness
 - Reduced bundle size by tree-shaking
 
 ### Fixed
