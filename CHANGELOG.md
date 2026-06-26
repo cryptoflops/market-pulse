@@ -3,8 +3,8 @@
 ## [Unreleased] - 2026-06-26
 
 ### Changed
-- Refactored wallet connection flow
-- Reduced bundle size by tree-shaking
+- Updated dependencies to latest stable
+- Cleaned up unused imports
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Fixed edge case in balance display
