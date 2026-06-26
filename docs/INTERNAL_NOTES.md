@@ -41,3 +41,4 @@
 - Contract reads via useReadContract work fine on Celo, but multicall batching is not supported on all RPCs.
 - Contract reads via useReadContract work fine on Celo, but multicall batching is not supported on all RPCs.
 - Investigated rendering jitter on mobile layout when switching between MiniPay and desktop contexts.
+- Checked backward compatibility with older Celo RPC responses. The L2 migration changed some receipt fields.
