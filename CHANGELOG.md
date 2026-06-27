@@ -4,7 +4,7 @@
 
 ### Changed
 - Updated dependencies to latest stable
-- Added input validation for amounts
+- Cleaned up unused imports
 
 ### Fixed
-- Fixed decimal formatting for small amounts
+- Corrected gas estimation for Celo L2
