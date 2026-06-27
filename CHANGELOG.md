@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-06-26
+## [Unreleased] - 2026-06-27
 
 ### Changed
-- Optimized RPC batch requests
+- Updated dependencies to latest stable
 - Reduced bundle size by tree-shaking
 
 ### Fixed
