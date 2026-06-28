@@ -43,3 +43,4 @@
 - Investigated rendering jitter on mobile layout when switching between MiniPay and desktop contexts.
 - Checked backward compatibility with older Celo RPC responses. The L2 migration changed some receipt fields.
 - Reviewed gas price oracle behavior on Celo. Since the Gingerbread upgrade, EIP-1559 is the default.
+- Reviewed component tree performance after adding MiniPayBar, no measurable regression.
