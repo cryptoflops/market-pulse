@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-06-27
+## [Unreleased] - 2026-06-28
 
 ### Changed
 - Updated dependencies to latest stable
-- Cleaned up unused imports
+- Reduced bundle size by tree-shaking
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Resolved race condition in wallet sync
