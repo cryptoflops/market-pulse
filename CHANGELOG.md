@@ -3,8 +3,8 @@
 ## [Unreleased] - 2026-06-28
 
 ### Changed
-- Updated dependencies to latest stable
-- Reduced bundle size by tree-shaking
+- Refactored wallet connection flow
+- Added input validation for amounts
 
 ### Fixed
 - Resolved race condition in wallet sync
