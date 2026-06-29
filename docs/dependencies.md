@@ -8,4 +8,4 @@ Updated: 2026-06-29
 - next: 15.0.0
 
 ## Notes
-- Pinned ethers for Celo fee currency compatibility
+- Using viem for read-only calls, ethers for writes
