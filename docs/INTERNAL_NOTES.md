@@ -45,3 +45,4 @@
 - Reviewed gas price oracle behavior on Celo. Since the Gingerbread upgrade, EIP-1559 is the default.
 - Reviewed component tree performance after adding MiniPayBar, no measurable regression.
 - Loyalty point accumulation is gas-efficient since we only write one uint256 per visit.
+- The useMiniPay hook detects isMiniPay synchronously, but some devices inject the provider async. Added 500ms fallback.
