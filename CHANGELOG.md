@@ -3,8 +3,8 @@
 ## [Unreleased] - 2026-06-29
 
 ### Changed
-- Improved loading state indicators
-- Added retry logic for failed transactions
+- Optimized RPC batch requests
+- Added input validation for amounts
 
 ### Fixed
-- Corrected gas estimation for Celo L2
+- Resolved race condition in wallet sync
