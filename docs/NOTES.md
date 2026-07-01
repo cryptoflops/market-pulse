@@ -1,6 +1,6 @@
 # market-pulse Deployment Notes
 
-Last verified: 2026-07-01T10:07:37.568Z
+Last verified: 2026-07-01T18:20:39.986Z
 
 ## Prerequisites
 - Node.js >= 18
@@ -12,4 +12,4 @@ npm install
 npm run dev
 ```
 
-> Build hash: 7rtsx8in
+> Build hash: g48d1yvk
