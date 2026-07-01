@@ -8,4 +8,4 @@ Updated: 2026-07-01
 - next: 14.1.0
 
 ## Notes
-- Next.js App Router for better streaming SSR
+- Using viem for read-only calls, ethers for writes
