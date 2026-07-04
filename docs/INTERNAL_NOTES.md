@@ -48,3 +48,4 @@
 - The useMiniPay hook detects isMiniPay synchronously, but some devices inject the provider async. Added 500ms fallback.
 - Loyalty point accumulation is gas-efficient since we only write one uint256 per visit.
 - Tested cUSD approve + deposit flow on Celo mainnet. Gas estimates stable at ~45k per tx.
+- Tested the NetworkEnforcer component with chain switching. Smooth on MiniPay, slight delay on MetaMask.
