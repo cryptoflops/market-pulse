@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased] - 2026-07-06
+## [Unreleased] - 2026-07-09
 
 ### Changed
-- Enhanced mobile responsiveness
+- Optimized RPC batch requests
 - Reduced bundle size by tree-shaking
 
 ### Fixed
-- Fixed edge case in balance display
+- Fixed decimal formatting for small amounts
