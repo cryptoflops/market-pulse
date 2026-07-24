@@ -1,10 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-07-09
+## [Unreleased] - 2026-07-24
 
 ### Changed
-- Refactored wallet connection flow
-- Cleaned up unused imports
+- Improved loading state indicators across UI
 
 ### Fixed
-- Resolved race condition in wallet sync
+- Corrected gas estimation for Celo L2 calls
