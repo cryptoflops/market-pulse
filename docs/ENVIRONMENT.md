@@ -1,6 +1,6 @@
 # market-pulse Environment Guide
 
-Generated: 2026-07-25T04:04:30.078Z
+Generated: 2026-07-26T06:41:23.861Z
 
 ## Requirements
 - Node.js >= 18
@@ -10,4 +10,4 @@ Generated: 2026-07-25T04:04:30.078Z
 ## Validation
 Ensure `.env` matches `.env.example` before deployment.
 
-Build: r9h3cyvl
+Build: 1ejxo7zm
