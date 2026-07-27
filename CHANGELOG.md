@@ -3,7 +3,7 @@
 ## [Unreleased] - 2026-07-27
 
 ### Changed
-- Refactored wallet connection flow for MiniPay
+- Improved loading state indicators across UI
 
 ### Fixed
-- Resolved race condition in wallet state sync
+- Fixed decimal formatting for cUSD amounts
