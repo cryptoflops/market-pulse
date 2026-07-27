@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-07-26
+## [Unreleased] - 2026-07-27
 
 ### Changed
-- Enhanced mobile responsiveness on smaller screens
+- Optimized RPC batch requests for lower latency
 
 ### Fixed
-- Corrected gas estimation for Celo L2 calls
+- Fixed edge case in balance display for micro amounts
