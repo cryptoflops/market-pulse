@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-07-29
+## [Unreleased] - 2026-07-30
 
 ### Changed
-- Enhanced mobile responsiveness on smaller screens
+- Improved loading state indicators across UI
 
 ### Fixed
-- Fixed edge case in balance display for micro amounts
+- Corrected gas estimation for Celo L2 calls
