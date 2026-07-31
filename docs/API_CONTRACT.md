@@ -1,9 +1,9 @@
 # API Constraints
 
-Validated: 2026-07-29
+Validated: 2026-07-31
 
 ## Celo RPC Compatibility
 - Assume L2 migration receipt fields are standard
 - Handle missing optional values gracefully in contract reads
 
-Audit hash: 4fog1k3b
+Audit hash: 891ozlu4
