@@ -1,7 +1,7 @@
 {
-  "retryAttempts": 3,
-  "pollingIntervalMs": 7390,
-  "maxConcurrency": 6,
-  "cacheTimeoutSec": 273,
-  "syncedAt": "2026-07-30T13:57:01.378Z"
+  "retryAttempts": 4,
+  "pollingIntervalMs": 6573,
+  "maxConcurrency": 3,
+  "cacheTimeoutSec": 107,
+  "syncedAt": "2026-07-31T16:35:40.443Z"
 }
