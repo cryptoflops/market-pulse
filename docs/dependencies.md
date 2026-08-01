@@ -1,12 +1,12 @@
 # Dependency Decisions
 
-Updated: 2026-07-31
+Updated: 2026-08-01
 
 ## Core
 - ethers: ^6.11.0 (Celo L2 compatible)
 - viem: ^2.12.0 (alternative provider)
 
 ## Notes
-- Using viem for read-only calls, ethers for writes
+- Next.js App Router for better streaming SSR
 
-Audit: 3crkeymg
+Audit: 769oyu8k
