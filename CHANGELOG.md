@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2026-08-01
+## [Unreleased] - 2026-08-02
 
 ### Changed
-- Optimized RPC batch requests for lower latency
+- Enhanced mobile responsiveness on smaller screens
 
 ### Fixed
-- Fixed edge case in balance display for micro amounts
+- Fixed decimal formatting for cUSD amounts
